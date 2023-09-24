@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #4f1e10, #3c053f, #093849, #04392d);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.principal{
+    column-count: 2;
+}
+
+.direita{
+    
+    display: flex;
+    
+}
+
+h1{
+    color: #fff;
+    font-family: "Brush Script MT", Brush Script Std, cursive;   
+    font-size: 60px;
+}
+
+.img1 {
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    background-image: url("caio_arq/caio_nome.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    transition: .8s;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+
+.img1:hover{
+    background-image: url("caio_arq/caio_foto.jpg");
+    background-size: 400px 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.img2 {
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    background-image: url("lucas_arq/lucas_nome.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    transition: .8s;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+.img2:hover{
+    background-image: url("lucas_arq/lucas_foto.JPG");
+    background-size: 400px 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.img3 {
+    position: absolute;
+    left: 450px;
+    top: 70px;
+    background-image: url("marcela_nome.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    transition: .8s;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+.img3:hover{
+    display: block;
+    background-image: url("https://github.com/mCaburlao/mCaburlao.github.io/blob/main/marcela_selfie.jpg?raw=true");
+    background-size: 400px 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.img4 {
+    display: block;
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    background-image: url("michael_arq/michael_nome.jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    transition: .8s;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+}
+
+.img4:hover{
+    display: block;
+    background-image: url("michael_arq/michael_foto.JPG");
+    background-size: 400px 400px;
+    width: 300px;
+    height: 300px;
+}
+
+.direita{
+    background: #12192c;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
